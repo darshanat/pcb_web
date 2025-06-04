@@ -11,7 +11,12 @@ function Services() {
         "We are professional in designing PCBs including with solid pcbs,aluminum clad pcbs,flex pcbs with standard qualities. Our expertise team designs unique pcb layouts,schematics as well as simulations according to your requirements. We use industry's leading design softwares like KiCad, Altium to ensure precise and reliable PCB designs.",
     },
     { title: "High-Speed Design", icon: "⚡", description: " " },
-    { title: "Prototyping", icon: "🔬", description: " " },
+    {
+      title: "Prototyping",
+      icon: "🔬",
+      description:
+        "we are professional in models and enclosure designing.As a company we analize product functionality and other aspects, ensuring that designs meet performance requirements, as well as manufacturing exceed your expectation.",
+    },
   ];
 
   return (
