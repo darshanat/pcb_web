@@ -4,9 +4,14 @@ import { motion } from "framer-motion";
 
 function Services() {
   const services = [
-    { title: "Custom PCB Layout", icon: "🛠️" },
-    { title: "High-Speed Design", icon: "⚡" },
-    { title: "Prototyping", icon: "🔬" },
+    {
+      title: "Custom PCB Layout",
+      icon: "🛠️",
+      description:
+        "We are professional in designing PCBs including with solid pcbs,aluminum clad pcbs,flex pcbs with standard qualities. Our expertise team designs unique pcb layouts,schematics as well as simulations according to your requirements. We use industry's leading design softwares like KiCad, Altium to ensure precise and reliable PCB designs.",
+    },
+    { title: "High-Speed Design", icon: "⚡", description: " " },
+    { title: "Prototyping", icon: "🔬", description: " " },
   ];
 
   return (
@@ -30,6 +35,7 @@ function Services() {
           <div key={i} className={styles.card}>
             <div className={styles.icon}>{service.icon}</div>
             <h3 className={styles.serviceTitle}>{service.title}</h3>
+            <text className={styles.description}> {service.description}</text>
           </div>
         ))}
       </motion.div>
